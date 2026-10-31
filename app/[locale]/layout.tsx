@@ -55,7 +55,7 @@ export async function generateMetadata(props: {
     const title = meta.title ?? "RoInvoice | Professional Invoice & Billing Engine by Tuan Philip";
     const description =
         meta.description ??
-        "Create invoices effortlessly with Invoify, the free invoice generator. Try it now!";
+        "Create invoices effortlessly with RoInvoice, the free invoice generator by Tuan Philip. Try it now!";
 
     return {
         // Resolves every relative URL below, including the generated OG image.
@@ -170,9 +170,9 @@ export default async function LocaleLayout(props: {
                             strategy="lazyOnload"
                             data-name="BMC-Widget"
                             data-cfasync="false"
-                            data-id="aliabb"
+                            data-id="tuanphilip"
                             data-description="Support me on Buy me a coffee!"
-                            data-message="Thank you for using Invoify"
+                            data-message="Thank you for using RoInvoice"
                             data-color="#5F7FFF"
                             data-position="Right"
                             data-x_margin="18"
